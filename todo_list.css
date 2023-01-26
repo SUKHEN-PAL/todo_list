@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 40%;
+    height: 50vh;
+    border: 1px solid black;
+    margin-left: 30vw;
+    margin-top: 50px;
+}
+
+.container h2{
+    color: blue;
+}
+
+.container #error{
+    color: red;
+}
+
+.container li a{
+    float: right;
+    text-decoration: none;
+    font-weight: bold;
+
+    padding-right: 50px;
+    color: red;
+}
